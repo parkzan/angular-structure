@@ -3,10 +3,11 @@ import { CommonModule } from '@angular/common';
 
 import { SecondPageRoutingModule } from './second-page-routing.module';
 import { SecondPageComponent } from './pages/second-page.component';
+import { DialogAddComponent } from './components/dialog-add/dialog-add.component';
 
 
 @NgModule({
-  declarations: [SecondPageComponent],
+  declarations: [SecondPageComponent, DialogAddComponent],
   imports: [
     CommonModule,
     SecondPageRoutingModule
